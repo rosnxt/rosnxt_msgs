@@ -1,0 +1,20 @@
+<package>
+  <name>rosnxt_msgs</name>
+  <version>0.1.16</version>
+  <description>
+    ROS Messages for rosnxt_proxy.
+  </description>
+  <maintainer email="federico.ferri.it@gmail.com">Federico Ferri</maintainer>
+  <license>BSD</license>
+
+  <url type="website">http://www.ros.org/wiki/rosnxt_msgs</url>
+  <url type="repository">https://github.com/rosnxt/rosnxt_msgs</url>
+  <url type="bugtracker">https://github.com/rosnxt/rosnxt_msgs/issues</url>
+  <author email="federico.ferri.it@gmail.com">Federico Ferri</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>message_generation</build_depend>
+
+  <run_depend>message_runtime</run_depend>
+</package>
